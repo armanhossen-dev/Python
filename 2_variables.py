@@ -15,7 +15,7 @@
 #String -----------------------------------------------------------------------------------------
 # a string is a series of text,  this can be in between double. or single qoute 
 
-print("--------------1.String variable implementation--------------")
+print("--------------1.String variable implementation-------------")
 first_name = "Arman" 
 # this can e double or single qoutes but use "" always for string!
 # if i use the variable without the "" in the print funciton then that will print the variable value 
@@ -49,20 +49,19 @@ print(f"Making a email : {name+num+gcom}\n")
 
 print(f"My Email is {email+gcom}")
 print(f"My Email is not {email+ycom}")
-print(f"This is my gmail {email+gcom}")
-print("\n")
+print(f"This is my gmail {email+gcom}\n\n")
 
 
-#Integer -------------------------------------------------------------------------------------------------------
+#Integer --------------------------------------------------------------------------------------
 # integer is number without any decimal part
-print("--------------2.Integer variable implementation--------------")
+print("--------------2.Integer variable implementation------------")
 age = 23     # age should not be in "" then it will be string
 quantity = 3 
 numOfStuInCls = 50
 
 print(f"I am now {age} years old.")
 print(f"I will buy {quantity} car, Insha Allah.")
-print(f"There is {numOfStuInCls} students in the class!")
+print(f"There is {numOfStuInCls} students in the class!\n\n")
 
 
 #Float -----------------------------------------------------------------------------------------
@@ -78,33 +77,42 @@ print(f"I have to run {distance}km.")
 
 laptopName = "Asus Future Model"
 laptopPrice = 120500.05
+laptopCPU = 4.5
+print(f"\nI want to buy a laptop named {laptopName},\nIt's cpu is {laptopCPU}Hz,\nIt's price is {laptopPrice}/-\n\n")
 
 
-
-#Boolean -----------------------------------------------------------------------------------------
+#Boolean ---------------------------------------------------------------------------------------
 #its binary, it can have two value only, True or False, use capital T and F starting the word True and False 
-print("4.Boolean variable implementation")
+print("--------------4.Boolean variable implementation-------------")
 Student = True
 Graduate = False
+enrolled = True
 
-# print(F"Are you a student?: {Student}")
-print(F"Are you a Graduate?: {Graduate}")
 
-haveLaptop = False
-if haveLaptop:
-    print("What color is your laptop?")
-else:
-    print("You don't have any laptop!")
-
-forSale = True
-if forSale:  #if this variable contains true then
-    print("That item is for sale")
+# print(F"Are you a student?: {Student}\n")
+if Student:
+    print("You are a student")
+    #print(F"Are you a Graduate?: {Graduate}")
+    if enrolled:
+        print("wow, You were Enrolled in that course!")
+        if Graduate:
+            print("And You are Now Graduated!\n")
+        else:
+            print("But You are not Graduated yet!\n")
+    else:
+        print("So, You didn't enrolled in that course!")
+        if Graduate:
+            print("And You are Now Graduated!\n")
+        else:
+            print("But You are not Graduated yet!\n")
 else: 
-    print("That item is not available")
-
+    print("You are not a student\n")
+    
+    
 online = False
 if online:
-    print("Arman is online!")
+    print("Arman is online!\n")
 else:
-    print("Arman is offline!")
-
+    print("Arman is offline!\n")
+    
+# https://youtu.be/ix9cRaBkVe0?t=899
