@@ -11,7 +11,6 @@
 # datatype, just store the value  with proper syntax, for a string use double ""
 
 
-
 #String -----------------------------------------------------------------------------------------
 # a string is a series of text,  this can be in between double. or single qoute 
 
@@ -23,7 +22,6 @@ print(Bro)
 fname = "Arman" 
 lname = "Ripon"
 print(fname + ' ' + lname)
-
 #if i use the "" for the variable then it will print the variable name or not the value of the variable
 
 # f-string:
@@ -38,7 +36,7 @@ print(fname + ' ' + lname)
 print(f"Hey {Bro}, My First name is {fname}\n")
 
 food = "cake"
-# print(f"i like {food}")
+print(f"i like {food}\n")
 
 mail = "arman@gmail.com"
 print(f"My Fake mail is {mail}\n")
@@ -93,7 +91,6 @@ Student = True
 Graduate = False
 enrolled = True
 
-
 # print(F"Are you a student?: {Student}\n")
 if Student:
     print("You are a student")
@@ -120,4 +117,17 @@ if online:
 else:
     print("Arman is offline!\n")
     
-# https://youtu.be/ix9cRaBkVe0?t=899
+    
+currentSemestre = 7
+if currentSemestre == 7:
+    print("You study in 7th semester!")
+    print("You started to learn python from the 2nd semester \nbut ending it in 7th semester,\nremeber its never to late to start!\n")
+else: 
+    print("You are not studying in 7th semester!")
+
+# a variable is a container for a value, (string, integer, float, boolean)
+# example variable
+university = "Daffodil International University"
+year = 2026
+currentGPA = 3.3
+areYouEnjoying = False #........................... End of variable ------------------------------
