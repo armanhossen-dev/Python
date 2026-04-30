@@ -16,10 +16,13 @@
 # a string is a series of text,  this can be in between double. or single qoute 
 
 print("--------------1.String variable implementation-------------")
-first_name = "Arman" 
+Bro = "Bro" 
 # this can e double or single qoutes but use "" always for string!
 # if i use the variable without the "" in the print funciton then that will print the variable value 
-print(first_name)
+print(Bro)
+fname = "Arman" 
+lname = "Ripon"
+print(fname + ' ' + lname)
 
 #if i use the "" for the variable then it will print the variable name or not the value of the variable
 
@@ -32,7 +35,8 @@ print(first_name)
 
 
 # to format the variable in the string we use f before the "", inside the print() , here the f = means format
-print(f"My First Name is {first_name}")
+print(f"Hey {Bro}, My First name is {fname}\n")
+
 food = "cake"
 # print(f"i like {food}")
 
@@ -56,18 +60,19 @@ print(f"This is my gmail {email+gcom}\n\n")
 # integer is number without any decimal part
 print("--------------2.Integer variable implementation------------")
 age = 23     # age should not be in "" then it will be string
-quantity = 3 
-numOfStuInCls = 50
-
 print(f"I am now {age} years old.")
+
+quantity = 3 
 print(f"I will buy {quantity} car, Insha Allah.")
+
+numOfStuInCls = 50
 print(f"There is {numOfStuInCls} students in the class!\n\n")
 
 
 #Float -----------------------------------------------------------------------------------------
 # float is number with  decimal part
 print("--------------3.Float variable implementation--------------")
-price = 100.93
+price = 100.95
 gpa = 3.50
 distance = 5.5
 

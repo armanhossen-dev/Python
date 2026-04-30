@@ -17,4 +17,5 @@ print("It's realy good!\n")
 print("My Name: " + "Arman Hossen Ripon\n")
 # wow, it doesn't create any .exe file after run!!!  
 
-print("Hi Broo!\nKemon Acho akon, Onek din por python practice!")
+print("1\n2\n3\nStarting new,\nhope this time i will learn it good way and \nfinisht my brocode python tutorial,\ninsha Allah!\n")
+# https://youtu.be/ix9cRaBkVe0
