@@ -18,3 +18,73 @@ things we need
 
 learning path: 
     https://orgpad.info/s/sbwXdJ9N5wc
+
+
+    IN 8 DAYS
+    https://chatgpt.com/s/t_69f3d55e449481919b7d517d02bacd29
+    Day 1 — Basics (syntax + variables)
+    Install Python and set up your editor (like Visual Studio Code)
+    Learn:
+    print(), variables, data types (int, float, string, bool)
+    Practice:
+    Simple calculator (add, subtract, multiply)
+    ⏱️ 2–3 hours
+
+
+    Day 2 — Conditions & logic
+    if / else / elif
+    comparison operators (==, !=, >, <)
+    logical operators (and, or, not)
+    Practice:
+    Number guessing game (basic)
+
+
+    Day 3 — Loops
+    for loop
+    while loop
+    break, continue
+    Practice:
+    Print patterns
+    Sum of numbers from 1–100
+
+
+    Day 4 — Data structures
+    lists
+    tuples
+    dictionaries
+    Practice:
+    Store student data (name, marks)
+    Loop through and print results
+
+    Day 5 — Functions
+    def, parameters, return
+    why functions matter
+    Practice:
+    Calculator using functions
+    Reuse code properly
+
+
+    Day 6 — Files + mini project
+    Read/write files (open, read, write)
+    Mini project:
+    To-do list (save tasks in a file)
+
+
+    Day 7 — Error handling + polishing
+    try / except
+    basic debugging mindset
+    Improve:
+    Add error handling to your to-do app
+
+
+    Day 8 — Final mini project
+    Build something small but complete:
+    CLI app (calculator, quiz app, or contact book)
+    Focus on:
+    clean code
+    combining everything you learned
+
+
+    Daily structure (important)
+    Don’t just watch tutorials:
+    30% learning  -  70% coding
