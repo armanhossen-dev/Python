@@ -9,6 +9,8 @@ age = 23
 gpa = 3.3
 happy = False
 
+print(type(age))
+
 #type function, to get the variables type, type(variable)
 print(f"\nLets See the type of the variables:\nnam = {nam} \ttype: {type(nam)}")
 print(f"age = {age} \t\t\ttype: {type(age)}")
