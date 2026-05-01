@@ -22,3 +22,4 @@ else:
     print(f"{unit} is not valid")
 
 # print(f"weight = {round(weight,2)} {unit}.\n") this makes error, even if there is unit not valid then it runs so i add this line inside the if statements
+# https://youtu.be/ix9cRaBkVe0?t=4193
