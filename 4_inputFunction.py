@@ -78,4 +78,3 @@ else:
         print(f"Sum = {sum}")
     else:
         sys.exit()
-        
