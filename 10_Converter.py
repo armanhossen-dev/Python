@@ -15,6 +15,9 @@ if opt == 1:
     ch = int(input("Enter choice (1,2,3): "))
     print()
     
+    # windows Alt + 0176 = °
+    # macOS   shift + option + 8 = °
+    
     if ch == 1:
         k = float(input("K = "))
         c = k - 273.15
