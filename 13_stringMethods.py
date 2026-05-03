@@ -32,5 +32,46 @@ print(f"your uppercased name is: {name}") #your uppercased name is: ARMAN HOSSEN
 
 
 name = name.lower() # this makes all the letters into lowercase
-print(f"your lowercased name is: {name}") #your lowercased name is: arman hossen ripon
-# https://youtu.be/ix9cRaBkVe0?t=5489
+print(f"your lowercased name is: {name}\n") #your lowercased name is: arman hossen ripon
+
+
+res = name.isdigit() # if a string contains only digits, then it will return 'True',
+                     # variable.isdigit() -> this returns boolean value,
+                     # if my variable contains both lettes/symbole and digits then also it will return 'False'
+print(f"name.isdigit() = {res}\n") #False
+
+
+res = name.isalpha() # if string only contains letters or alphabets [no white space], no digits inside it, no space
+                     # variable.isalpha() also return boolean value
+print(f"name.isalpha() = {res}") #name = arman  name.isalpha() = True
+
+
+#lets ask for phone number
+phoneNumber = input("Enter your phone number: ")
+
+# .count("c") = this returns number of that character in a string
+res = phoneNumber.count("-") #lets see how many dashs inside a number 
+                             # like example: 1-234-567-8901
+print(f"lets see how many '-' in your given number: r = {res}\n") # res = 3
+
+# if phoneNumber.isdigit():
+#     print("Thank you for giving your phone number!")
+# else:
+#     print("Your phone number should only contains digits")
+
+
+# .replace() method used to replace any occurance of one char with another
+# variable.replace("whatToReplace", "withWhat")
+phoneNumber = phoneNumber.replace("-", "~")
+print(f"Your New stylish phone number is: {phoneNumber}") # Your New stylish phone number is: 01715~649235
+
+phoneNumber = phoneNumber.replace("~", "")
+print(f"New only Digit phone number is: {phoneNumber}\n") # New only Digit phone number is: 01715649235
+
+name = name.replace("ripon", "jibon") # name = arman hossen jibon
+print(f"name = {name}")
+
+# if i wnat to know all this methods of strings 
+# print(help(str))
+
+# https://youtu.be/ix9cRaBkVe0?t=5707
