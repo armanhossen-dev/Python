@@ -73,5 +73,3 @@ print(f"name = {name}")
 
 # if i wnat to know all this methods of strings 
 # print(help(str))
-
-# https://youtu.be/ix9cRaBkVe0?t=5707
