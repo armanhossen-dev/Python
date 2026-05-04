@@ -28,7 +28,19 @@ print(credit_number[-1]) # 6
 print(credit_number[-2]) # 5
 print(credit_number[-3]) # 4
 
-
+# credit_number = "1234-5678-9012-3456"
+#                  1 3 - 6 8 9 1 - 4 6
 #step
+# if var[::2] then python assume that from the stat and till the end, every 2th value , 1st one then after the 2nd one of the string
+print(credit_number[::2]) #13-6891-46
+print(credit_number[::3]) #146-136
+
+# credit_number = "1234-5678-9012-3456"
+# a program to get the last 4 digit of a credit card nuber
+last4Digits = credit_number[-4:] #from the -4 to the end
+print(f"XXXX-XXXX-XXXX-{last4Digits}") #XXXX-XXXX-XXXX-3456
 
 
+# reverse a string!
+res = credit_number[::-1] # [::-1] this will reverse a string
+print(f"Reversed credit card number: {res}") #Reversed credit card number: 6543-2109-8765-4321
