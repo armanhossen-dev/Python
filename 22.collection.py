@@ -145,6 +145,10 @@ print(fruits2) # {'orange', 'apple', 'banana', 'coconut'}
 'intersection_update', 'isdisjoint','issubset', 'issuperset', 'pop', 'remove', 'symmetric_difference', 'symmetric_difference_update',
 'union', 'update']
 '''
+# in sets functions are - 'add', 'clear', 'copy', 'difference', 'difference_update', 'discard', 'intersection', 
+# 'intersection_update', 'isdisjoint','issubset', 'issuperset', 'pop', 'remove', 'symmetric_difference', 'symmetric_difference_update',
+# 'union', 'update'
+
 # for indepth understanding of those methods we can learn thoes from 
 # print(help(fruits2))
 
@@ -183,6 +187,35 @@ alpha = {'a', 'b', 'c', 'a'}
 print(alpha) # {'c', 'a', 'b'}
 
 # those are some usefull methods, in sets
-print("a set is a collection that is unordered, and unchangeable values, but add or remove can be done and no duplicates in it ------------\n\n")
+print("\n-----a set is a collection that is unordered, and unchangeable values,\nbut add or remove can be done and no duplicates in it ------------\n\n")
 
-# https://youtu.be/ix9cRaBkVe0?t=9360
+# Tuple = () ordered and unchangeable, duplicates are ok, but its faster than list
+
+foods = ('Kichuri', 'kalavuna', 'kalo Misti', 'kacchi', 'kalo Misti')
+# print(dir(foods)) # methods for foods
+'''
+['__add__', '__class__', '__class_getitem__', '__contains__', '__delattr__', '__dir__', 
+'__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', 
+'__getnewargs__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__',
+'__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', 
+'__reduce_ex__', '__repr__', '__rmul__', '__setattr__', '__sizeof__', '__str__', 
+'__subclasshook__', 'count', 'index']
+'''
+# print(help(foods))
+print(f'len(foods) = {len(foods)}') # len(foods) = 5
+print(f'"kacchi" in foods = {"kacchi" in foods}') # "kacchi" in foods = True
+
+# its unchangeable, the only two methods here is - index, count
+print(f'foods.index("kacchi") = {foods.index("kacchi")}') # foods.index("kacchi") = 3
+print(f'foods.count("kalo Misti") = {foods.count("kalo Misti")}\n') # foods.count("kalo Misti") = 2
+
+n = 0
+for i in foods:
+    n+=1
+    print(f'{n}. {i}')
+    # 1. Kichuri
+    # 2. kalavuna
+    # 3. kalo Misti
+    # 4. kacchi
+    # 5. kalo Misti
+print("\n---- collections ----")
