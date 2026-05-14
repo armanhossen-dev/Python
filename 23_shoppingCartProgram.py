@@ -1,3 +1,7 @@
+# PreventS 'Ctrl + C' / 'KeyboardInterrupt' ignoring interrupt THIS TWO LINES
+import signal
+signal.signal(signal.SIGINT,signal.SIG_IGN)
+
 foods = []
 prices = []
 total = 0
@@ -24,6 +28,7 @@ while  True:
 max_price_width = len(f"{max(prices):.2f}")
 max_food_width = max(len(food) for food in foods)
 
+print("----------Your Cart----------")
 print("Your shopping list: ")
 for a in range(total):
     # print(f"{a+1}. Item Name: \t{foods[a]:<10} \tPrice: \t${prices[a]:>{max_width}.2f}")

@@ -122,6 +122,10 @@ print(f'fruits.count("banana") = {fruits.count("banana")}') # fruits.count("bana
 print("\n----- list --- ordered and changable and duplicates are ok ------------\n")
 
 
+
+
+
+
 # set
 # set = {} unordered and immutable(we can alter this values), but add/remove ok, no duplicates
 print("2. set = {}, unordered and immutable(we can alter theire values), but add /remove/clear same as list, no duplicates ...")
@@ -189,8 +193,11 @@ print(alpha) # {'c', 'a', 'b'}
 # those are some usefull methods, in sets
 print("\n-----a set is a collection that is unordered, and unchangeable values,\nbut add or remove can be done and no duplicates in it ------------\n\n")
 
-# Tuple = () ordered and unchangeable, duplicates are ok, but its faster than list
 
+
+
+
+# Tuple = () ordered and unchangeable, duplicates are ok, but its faster than list
 foods = ('Kichuri', 'kalavuna', 'kalo Misti', 'kacchi', 'kalo Misti')
 # print(dir(foods)) # methods for foods
 '''
