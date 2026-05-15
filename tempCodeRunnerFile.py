@@ -1,2 +1,2 @@
-
-    print("The outdoor even is still scheduled.\n"
+        g = input("Enter your Ans (A, B, C, D): ").lower()
+    except KeyboardInterrupt:
