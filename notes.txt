@@ -19,7 +19,6 @@ things we need
 learning path: 
     https://orgpad.info/s/sbwXdJ9N5wc
 
-
     IN 8 DAYS
     https://chatgpt.com/s/t_69f3d55e449481919b7d517d02bacd29
     Day 1 — Basics (syntax + variables)
@@ -83,7 +82,6 @@ learning path:
     Focus on:
     clean code
     combining everything you learned
-
 
     Daily structure (important)
     Don’t just watch tutorials:
