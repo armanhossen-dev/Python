@@ -33,33 +33,38 @@ capitals = {"Bangladesh":"Dhaka",
 '''
 
 # to get the value of key's from dictionary
-print(capitals.get("Bangladesh")) # Dhaka
+print(f"1. (capitals.get(\"Bangladesh\")) = {capitals.get("Bangladesh")}") # Dhaka 
+# print(variable.get(key)) = value for that key
 # if key not found in the dictionary
 print()
-print(capitals.get("Arman")) # None
 
+print(f"2. find 'Arman' in the key: {capitals.get("Arman")}") # None
+
+print(f"3. capitals.get(\"japan\") = {bool(capitals.get("japan"))}")
 
 if capitals.get("japan"): # if j-> J then it would be true
     print("That capital does exists")
 else:
     print("That capital dosen't exist")
     # That capital dosen't exist
-    
+print("\n")
 
+print("Updating key Canadas value to Bogura: ")
 capitals.update({"Canada":"Bogura"})
-print(capitals.get("Canada")) # Bogura
-print()
+print(f"4. capitals.get('Canada') = {capitals.get('Canada')}", end="\n\n")
+# print(capitals.get("Canada")) # Bogura
 
 # print to see all the value of keys from the talbe
-print(capitals) 
+# print(capitals) 
 # {'Bangladesh': 'Dhaka', 'Ireland': 'Dublin', 'Australia': 'Canberra', 'United Kingdom': 'London', 'New Zealand':
 #     'Wellington', 'China': 'Beijing', 'Korea': 'Seoul', 'Japan': 'Tokyo', 'USA': 'Washington D.C', 'India': 'New Delhi',
 #     'Pakistan': 'Islamabad', 'Russia': 'Moscow', 'Peru': 'Lima', 'Canada': 'Bogura'}
-
-print()
+# print()
 
 # remove a key and its value
-capitals.pop("Canada")
+print("remove key form the dictionary, variable.pop(value)")
+print(f"capitals.pop('Canada') = {capitals.pop('Canada')}") 
+# this shows the value but it also removes the key from the dictionary
 print(capitals) 
 
-# https://youtu.be/ix9cRaBkVe0?t=11256
+# https://youtu.be/ix9cRaBkVe0?t=11268
