@@ -60,6 +60,5 @@ To integrate a different signal, edit the two lines near the top of `main.py`:
 csv_path = os.path.join(BASE_DIR, 'Accelerometer.csv')   # swap CSV file
 a_raw = df['x'].values                                    # swap column (x/y/z)
 ```
-
 Any of the other sensor CSVs (`Gyroscope.csv`, `TotalAcceleration.csv`, etc.)
 work the same way as long as they have a `seconds_elapsed` time column.
