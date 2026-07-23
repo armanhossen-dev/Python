@@ -33,14 +33,14 @@ capitals = {"Bangladesh":"Dhaka",
 '''
 
 # to get the value of key's from dictionary
-print(f"1. (capitals.get(\"Bangladesh\")) = {capitals.get("Bangladesh")}") # Dhaka 
+print(f'1. (capitals.get(\"Bangladesh\")) = {capitals.get("Bangladesh")}') # Dhaka 
 # print(variable.get(key)) = value for that key
 # if key not found in the dictionary
 print()
 
-print(f"2. find 'Arman' in the key: {capitals.get("Arman")}") # None
+print(f'2. find "Arman" in the key: {capitals.get("Arman")}') # None
 
-print(f"3. capitals.get(\"japan\") = {bool(capitals.get("japan"))}")
+print(f'3. capitals.get(\"japan\") = {bool(capitals.get("japan"))}')
 
 if capitals.get("japan"): # if j-> J then it would be true
     print("That capital does exists")
@@ -68,3 +68,59 @@ print(f"capitals.pop('Canada') = {capitals.pop('Canada')}")
 print(capitals) 
 
 # https://youtu.be/ix9cRaBkVe0?t=11268
+
+
+# capitals.clear() # this will clear the dictionary
+
+
+# key method that will return all the keys in the dictionary ! 
+key = capitals.keys()
+print("\n\nAll keys in this dictionary: ", end='')
+print(key)
+# All keys in this dictionary: dict_keys(['Bangladesh', 'Ireland', 'Australia', 'United Kingdom', 'New Zealand', 'China', 'Korea', 'Japan', 'USA', 'India', 'Pakistan', 'Russia', 'Peru'])
+
+# technically, key is an object, which resembles a list 
+# we can use this key in for loop, they're iterable
+
+print("\n\nUsing for loop to see the capital dictionary's keys!")
+for key in capitals.keys():
+    print(key)
+    # Bangladesh
+    # Ireland
+    # Australia
+    # United Kingdom
+    # New Zealand
+    # China
+    # Korea
+    # Japan
+    # USA
+    # India
+    # Pakistan
+    # Russia
+    # Peru
+    
+# values method, to get all the values within the dictionary! 
+print()
+v = capitals.values()
+print("Using values method to know all the values in this dictionary!")
+print(v)    # dict_values(['Dhaka', 'Dublin', 'Canberra', 'London', 'Wellington', 'Beijing', 'Seoul', 'Tokyo', 'Washington D.C', 'New Delhi', 'Islamabad', 'Moscow', 'Lima'])
+
+# using for loop to print all the values (i think they're iterable)
+# yes they are!
+print("\nUsing for loop to print the values!")
+for val in capitals.values():
+    print(val)
+    # Dhaka
+    # Dublin
+    # Canberra
+    # London
+    # Wellington
+    # Beijing
+    # Seoul
+    # Tokyo
+    # Washington D.C
+    # New Delhi
+    # Islamabad
+    # Moscow
+    # Lima
+print()
