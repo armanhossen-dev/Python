@@ -67,9 +67,6 @@ print(f"capitals.pop('Canada') = {capitals.pop('Canada')}")
 # this shows the value but it also removes the key from the dictionary
 print(capitals) 
 
-# https://youtu.be/ix9cRaBkVe0?t=11268
-
-
 # capitals.clear() # this will clear the dictionary
 
 
@@ -153,3 +150,4 @@ for key, value in capitals.items():
     print(f'| {key: <20}: {value: <20} |')
     print("----------------------------------------------")
 print()
+# https://youtu.be/ix9cRaBkVe0?t=11457
