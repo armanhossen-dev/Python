@@ -73,10 +73,13 @@ print(capitals)
 # capitals.clear() # this will clear the dictionary
 
 
-# key method that will return all the keys in the dictionary ! 
-key = capitals.keys()
+############################################# keys method ############################################
+
+# that will return all the keys in the dictionary ! 
+keys = capitals.keys()  # keys = is just a vairable
+
 print("\n\nAll keys in this dictionary: ", end='')
-print(key)
+print(keys)
 # All keys in this dictionary: dict_keys(['Bangladesh', 'Ireland', 'Australia', 'United Kingdom', 'New Zealand', 'China', 'Korea', 'Japan', 'USA', 'India', 'Pakistan', 'Russia', 'Peru'])
 
 # technically, key is an object, which resembles a list 
@@ -99,9 +102,12 @@ for key in capitals.keys():
     # Russia
     # Peru
     
-# values method, to get all the values within the dictionary! 
+############################################ values method, ############################################
+
+# to get all the values within the dictionary! 
 print()
-v = capitals.values()
+v = capitals.values()  # v = is just a vairable, also i can use values as variable
+
 print("Using values method to know all the values in this dictionary!")
 print(v)    # dict_values(['Dhaka', 'Dublin', 'Canberra', 'London', 'Wellington', 'Beijing', 'Seoul', 'Tokyo', 'Washington D.C', 'New Delhi', 'Islamabad', 'Moscow', 'Lima'])
 
@@ -123,4 +129,27 @@ for val in capitals.values():
     # Islamabad
     # Moscow
     # Lima
+print()
+
+
+############################################# items method ############################################
+
+items = capitals.items() # items = is just a vairable
+# printing dictionary items 
+print(items, end="\n\n") 
+#  dict_items([('Bangladesh', 'Dhaka'), ('Ireland', 'Dublin'), ('Australia', 'Canberra'), ('United Kingdom', 'London'), ('New Zealand', 'Wellington'), ('China', 'Beijing'), ('Korea', 'Seoul'), ('Japan', 'Tokyo'), ('USA', 'Washington D.C'), ('India', 'New Delhi'), ('Pakistan', 'Islamabad'), ('Russia', 'Moscow'), ('Peru', 'Lima')])
+# items returns a dictionary object which resembles a 2D list of tpple.
+print("Dictionary list using for loop:")
+num = 0
+for i in capitals.items():
+    num+=1
+    print(f'{num:02}. {i}')
+print()
+
+print("----------------------------------------------")
+print("| key                 : value                |")
+print("----------------------------------------------")
+for key, value in capitals.items():
+    print(f'| {key: <20}: {value: <20} |')
+    print("----------------------------------------------")
 print()
