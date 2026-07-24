@@ -1,95 +1,35 @@
-# PYTHON-LEARNING-AND-NOTES
-PYTHON LEARNING JOURNEY AND NOTES
+# Python Learning Journey & Notes
 
-things we need
-1.python interpreter
-    - compile to byte code
-    - execute by the virtual matchine
+## Setup
 
-    todo: 
-    go to this web: https://www.python.org/
-    -> downloads -> download lates version
-    open exe file which i download, then check Add python.exe to PATH
-    then -> install Now
-    then -> close
+**1. Python Interpreter**
+Compiles code to bytecode, executed by the virtual machine.
+- Go to [python.org](https://www.python.org/) → Downloads → latest version
+- Run installer → **check "Add python.exe to PATH"** → Install Now
 
-2. IDE - Integrated Development Environment
-    - Basically a place where we wrtie code
-    - PyCharm or VSCode
-    for PyCharm, go to : https://www.jetbrains.com/pycharm/
-    for VSCode, just download the Python Extension by Microsoft!
+**2. IDE (Integrated Development Environment)**
+Where you write code — pick one:
+- **VS Code**: install, then add the Python extension by Microsoft
+- **PyCharm**: [jetbrains.com/pycharm](https://www.jetbrains.com/pycharm/)
 
-learning path: 
-    https://orgpad.info/s/sbwXdJ9N5wc
+**Resources**
+- Roadmap: https://orgpad.info/s/sbwXdJ9N5wc
+- Video: https://youtu.be/XKHEtdqhLK8
+- Reference: https://youtu.be/ix9cRaBkVe0?t=11256
 
-    IN 8 DAYS
-    https://chatgpt.com/s/t_69f3d55e449481919b7d517d02bacd29
-    Day 1 — Basics (syntax + variables)
-    Install Python and set up your editor (like Visual Studio Code)
-    Learn:
-    print(), variables, data types (int, float, string, bool)
-    Practice:
-    Simple calculator (add, subtract, multiply)
-    ⏱️ 2–3 hours
+---
 
+## 8-Day Plan (30% learning, 70% coding)
 
-    Day 2 — Conditions & logic
-    if / else / elif
-    comparison operators (==, !=, >, <)
-    logical operators (and, or, not)
-    Practice:
-    Number guessing game (basic)
+| Day | Topic | Learn | Practice |
+|---|---|---|---|
+| 1 | Basics | `print()`, variables, data types (int, float, str, bool) | Simple calculator (add/subtract/multiply) |
+| 2 | Conditions & Logic | `if/elif/else`, comparison ops (`==`,`!=`,`>`,`<`), logical ops (`and`,`or`,`not`) | Number guessing game |
+| 3 | Loops | `for`, `while`, `break`, `continue` | Print patterns; sum of 1–100 |
+| 4 | Data Structures | lists, tuples, dictionaries | Store & loop through student names/marks |
+| 5 | Functions | `def`, parameters, `return`, why functions matter | Rebuild calculator using functions |
+| 6 | Files + Mini Project | `open()`, `read()`, `write()` | To-do list app (saves to file) |
+| 7 | Error Handling | `try/except`, debugging mindset | Add error handling to to-do app |
+| 8 | Final Project | Combine everything, write clean code | CLI app: calculator, quiz, or contact book |
 
-
-    Day 3 — Loops
-    for loop
-    while loop
-    break, continue
-    Practice:
-    Print patterns
-    Sum of numbers from 1–100
-
-
-    Day 4 — Data structures
-    lists
-    tuples
-    dictionaries
-    Practice:
-    Store student data (name, marks)
-    Loop through and print results
-
-    Day 5 — Functions
-    def, parameters, return
-    why functions matter
-    Practice:
-    Calculator using functions
-    Reuse code properly
-
-
-    Day 6 — Files + mini project
-    Read/write files (open, read, write)
-    Mini project:
-    To-do list (save tasks in a file)
-
-
-    Day 7 — Error handling + polishing
-    try / except
-    basic debugging mindset
-    Improve:
-    Add error handling to your to-do app
-
-
-    Day 8 — Final mini project
-    Build something small but complete:
-    CLI app (calculator, quiz app, or contact book)
-    Focus on:
-    clean code
-    combining everything you learned
-
-    Daily structure (important)
-    Don’t just watch tutorials:
-    30% learning  -  70% coding
-
-    https://youtu.be/XKHEtdqhLK8    
-
-    # https://youtu.be/ix9cRaBkVe0?t=11256
+**Daily rule:** ~2–3 hours/day. Spend most of the time coding, not just watching tutorials.
