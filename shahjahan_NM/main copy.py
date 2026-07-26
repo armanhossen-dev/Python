@@ -91,3 +91,6 @@ print(f"{'Method':<20}{'Absolute Error':>18}{'Relative Error':>18}{'% Error':>12
 print(f"{'Trapezoidal':<20}{trap_abs:>18.6f}{trap_rel:>18.6f}{trap_pct:>11.4f}%")
 simp13_label = "Simpson 1/3"
 print(f"{simp13_label:<20}{simp13_abs:>18.6f}{simp13_rel:>18.6f}{simp13_pct:>11.4f}%")
+
+
+# pip install -r requirements.txt
